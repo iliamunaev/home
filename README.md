@@ -13,18 +13,13 @@ A simple one-page personal website hosted on GitHub Pages.
 ## Customization
 
 - Replace "Ilia" with your actual name
-- Update the profile image (currently shows first initial)
+- Update your skills list
 - Add your real email, GitHub, and LinkedIn links
-- Modify the skills and projects sections with your information
-- Change colors in the CSS to match your preferences
 
 ## Features
 
-- Responsive design that works on mobile and desktop
-- Modern gradient background
-- Clean typography
-- Skills showcase
-- Project highlights
+- Plain HTML with minimal styling
+- Basic text content
 - Contact links
 
 ## 🛠️ Local Development
