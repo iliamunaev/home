@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilia - Personal Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .name {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 1rem;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .skill {
+            background: #667eea;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .project {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .contact-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contact-link:hover {
+            background: #5a67d8;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+            .name {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-img">I</div>
+            <h1 class="name">Ilia</h1>
+            <p class="title">Software Developer & Tech Enthusiast</p>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Ilia, a passionate software developer with a love for creating elegant solutions to complex problems. I enjoy working with modern technologies and constantly learning new things.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying the outdoors.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Git</span>
+                <span class="skill">Docker</span>
+                <span class="skill">AWS</span>
+                <span class="skill">Linux</span>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>A web application built with React and Node.js. Features include user authentication and real-time updates.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>An API service using Python and FastAPI. Handles data processing and provides RESTful endpoints.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Three</h3>
+                    <p>A mobile app developed with React Native. Cross-platform solution with offline capabilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link">Email</a>
+                <a href="https://github.com/yourusername" class="contact-link">GitHub</a>
+                <a href="https://linkedin.com/in/yourprofile" class="contact-link">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
