@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilia - Personal Site</title>
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ilia - Personal Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      /*font-family: 'Montserrat', sans-serif;*/
+      /*background: #fff;*/
+      background: linear-gradient(135deg, #fafafa, #f5f5f5, #ffffff);
+      color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: 600;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      margin: 6px 0 20px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #555;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+      margin: 6px 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .contact-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+    }
+
+    .contact-link {
+      text-decoration: none;
+      color: #C71F00; /* Accent blue */
+      font-weight: 500;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+     
+    }
+
+    .contact-link:hover {
+      opacity: 0.5;
+      transform: translateY(-2px);
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="name">Ilia Munaev</h1>
-            <h2 class="title">AI Software Engineer</h2>
-        </header>
+  <div class="container">
+    <header>
+      <h1>Ilia Munaev</h1>
+      <h2>AI Software Engineer</h2>
+    </header>
 
-            <p>AI Software Engineer. Crafting GenAI & Agentic AI Solutions.</p>
-             <p>Sharing Insights on LLMs & Autonomous Agents. Open to Opportunities. DMs Open</p>
-            <div class="contact-links">
-                <a href="https://github.com/iliamunaev" class="contact-link">GitHub</a>
-                <a href="https://www.linkedin.com/in/iliamunaev/" class="contact-link">LinkedIn</a>
-                <a href="https://x.com/IliaMunaev" class="contact-link">X</a>
-            </div>
+    <p>AI Software Engineer. Crafting GenAI & Agentic AI Solutions.</p>
+    <p>Sharing Insights on LLMs & Autonomous Agents. Open to Opportunities. DMs Open.</p>
+
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/iliamunaev/" class="contact-link">LinkedIn</a>
+      <a href="https://github.com/iliamunaev" class="contact-link">GitHub</a>
+      <a href="https://x.com/IliaMunaev" class="contact-link">X</a>
+      <a href="mailto:ilyamunaev@gmail.com" class="contact-link">Email</a>
     </div>
+  </div>
 </body>
 </html>
