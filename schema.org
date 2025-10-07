@@ -1,0 +1,28 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ilia Munaev",
+  "jobTitle": "AI Software Engineer",
+  "url": "https://iliamunaev.github.io/iliam/",
+  "email": "mailto:ilyamunaev@gmail.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/iliamunaev/",
+    "https://medium.com/@iliamunaev",
+    "https://github.com/iliamunaev",
+    "https://x.com/IliaMunaev"
+  ],
+  "knowsAbout": [
+    "Generative AI",
+    "Agentic AI",
+    "Python",
+    "C/C++",
+    "Maritime tech",
+    "System engineering",
+  ],
+  "worksFor": {
+    "@type": "EducationalOrganization",
+    "name": "School 42, Hive Helsinki"
+  }
+}
+</script>
